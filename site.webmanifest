@@ -1,0 +1,12 @@
+{
+  "name": "VYDRHNU.CZ – čištění sedaček a koberců",
+  "short_name": "VYDRHNU.CZ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#07394b",
+  "icons": [
+    {"src": "/favicon.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
