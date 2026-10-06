@@ -15,12 +15,28 @@ Oblast služeb: Zlínský kraj
 - Hlavní text stránky přirozeně uvádí služby a Zlínský kraj.
 - Popisy obrázků a odložené načítání fotografií mimo úvodní obrazovku.
 
-## Před předáním klientovi
-1. Ověřit doménu v Google Search Console přes DNS a odeslat `https://vydrhnu.cz/sitemap.xml`.
-2. Založit nebo ověřit Google Business Profile. Pokud jde o výjezdovou službu bez provozovny pro zákazníky, nastavit oblast působení a nezobrazovat soukromou adresu.
-3. Potvrdit správnost telefonu, e-mailu, oblasti služeb a vlastnictví domény.
-4. Před zapnutím analytiky nebo reklamních cookies zvolit nástroj měření a doplnit odpovídající souhlasovou lištu a zásady ochrany osobních údajů.
-5. Po nasazení sledovat v Search Console indexaci, dotazy a případné chyby. Google může upravit zobrazený titulek nebo popis a indexace nemusí proběhnout okamžitě.
+## Kontrola veřejné dohledatelnosti – 6. 10. 2026
+Dotaz na veřejně dostupné výsledky pro `site:vydrhnu.cz` nevrátil žádný výsledek. To samo o sobě není definitivní potvrzení stavu indexace; rozhodující kontrola bude v Search Console po ověření domény.
+
+## Zbývá na straně klienta
+### Google Search Console
+Stav připojení: účet Search Console není připojený; automatické ověření a odeslání nejsou v této relaci dostupné.
+
+1. Otevřít [Google Search Console](https://search.google.com/search-console) a přidat doménovou službu `vydrhnu.cz`.
+2. Zkopírovat ověřovací DNS TXT záznam, který Google vygeneruje, a vložit jej v DNS správě domény. Hodnotu záznamu nelze předem vymyslet.
+3. Po ověření vlastnictví odeslat sitemapu `https://vydrhnu.cz/sitemap.xml` a v Kontrole adresy URL požádat o indexaci hlavní stránky.
+4. DNS ověření záznamem musí zůstat v DNS, aby se vlastnictví dál potvrzovalo. Google upozorňuje, že zveřejnění DNS záznamu může chvíli trvat.
+
+Oficiální návod: [ověření vlastnictví](https://support.google.com/webmasters/answer/9008080?hl=cs) a [přidání webu do Search Console](https://support.google.com/webmasters/answer/34592?hl=cs).
+
+### Firemní profil Google
+Před založením nejprve vyhledat, jestli profil už neexistuje, a případně požádat o správu stávajícího. V této relaci nebyl klientský Google účet připojen a veřejné vyhledávání nepotvrdilo existující profil, takže nový profil ani duplicitní záznam nebyl publikován.
+
+Údaje známé z webu: název značky `VYDRHNU.CZ`, telefon `775 555 348`, web `https://vydrhnu.cz/`, služba čištění sedaček, koberců, matrací a čalounění, oblast Zlínský kraj. Klient musí potvrdit, že název je přesným názvem používaným v reálném podnikání, zvolit odpovídající kategorii z možností Googlu, otevírací dobu a konkrétní obce či PSČ, kam skutečně dojíždí.
+
+Pokud zákazníci na adrese provozovny nejsou obsluhováni, profil nastavit jako výjezdovou službu, adresu nezobrazovat a vyplnit skutečné oblasti dojezdu. Google dovoluje nejvýše 20 obcí/oblastí a doporučuje rozumnou oblast dojezdu od základny. Nepoužívat smyšlenou adresu, hodiny ani hodnocení. Ověření profilu musí dokončit vlastník účtu způsobem, který mu Google nabídne.
+
+Oficiální návody: [nastavení oblastí služeb](https://support.google.com/business/answer/9157481?hl=cs) a [správa veřejně zobrazené adresy](https://support.google.com/business/answer/2853879?hl=cs).
 
 ## Údaje záměrně nedoplněné
 Web neuvádí smyšlenou adresu, otevírací dobu, ceny ani zákaznická hodnocení. Tyto informace lze doplnit po potvrzení klientem.
