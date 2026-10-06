@@ -22,6 +22,30 @@
     @media(max-width:900px){.wrap{width:min(var(--max),calc(100% - 42px))}.logo{font-size:24px}.navlinks{gap:20px}.hero{min-height:550px}.hero-copy{width:60%}.hero p{font-size:17px}.feature-copy{padding:32px}.gallery-grid{gap:9px}.gallery-card h3{font-size:13px}}
     @media(max-width:650px){.wrap{width:calc(100% - 32px)}.service-strip{scroll-margin-top:66px}.header{height:66px}.logo{font-size:20px;gap:7px;letter-spacing:-.8px}.logo-spark{width:26px;height:26px}.navlinks{display:none}.phone-nav{min-height:42px;padding:0 13px;font-size:13px;gap:7px}.phone-nav svg{width:17px;height:17px}.hero{min-height:0;align-items:flex-start;background:#f3efe5}.hero:before{background:linear-gradient(180deg,rgba(255,255,255,.97) 0%,rgba(255,255,255,.91) 57%,rgba(255,255,255,.08) 100%)}.hero-bg{position:relative;z-index:-2;position:absolute;inset:auto 0 0;height:54%;object-position:62% center}.hero-copy{width:100%;padding:35px 0 285px}.eyebrow{font-size:11px;letter-spacing:1px;margin-bottom:14px}.hero h1{font-size:clamp(41px,12vw,58px);letter-spacing:-2px;margin-bottom:14px}.hero p{font-size:15px;line-height:1.5;margin-bottom:17px}.hero-action{min-width:0;width:100%;height:60px;padding:0 18px;font-size:23px;gap:12px}.hero-action svg{width:25px;height:25px}.hero-action .arrow{font-size:28px}.under-phone{font-size:13px;margin-top:11px}.under-phone svg{width:19px;height:19px}.service-grid{grid-template-columns:1fr 1fr;padding:22px 0 25px;row-gap:25px}.service{padding:0 7px}.service:nth-child(3):before{display:none}.service:nth-child(n+3):after{content:"";position:absolute;left:0;right:0;top:-13px;height:1px;background:#e7e8e5}.service-icon{width:58px;height:58px;margin-bottom:7px}.service-icon svg{width:35px;height:35px}.service h2{font-size:15px}.service p{font-size:12px;line-height:1.4}.feature{grid-template-columns:1fr}.machine-image{min-height:260px;height:260px}.feature-copy{padding:27px 23px 32px}.feature-copy h2{font-size:32px;margin-bottom:20px}.benefit-list{gap:15px}.benefit{grid-template-columns:50px 1fr;gap:13px}.benefit-icon{width:48px;height:48px}.benefit-icon svg{width:26px;height:26px}.benefit h3{font-size:15px}.benefit p{font-size:12px}.gallery-section{padding:17px 0 28px}.gallery{padding:13px 13px 16px;border-radius:18px}.gallery h2{font-size:25px;margin-bottom:12px}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 10px}.gallery-card img{aspect-ratio:1.55;border-radius:10px}.gallery-card h3{font-size:13px;margin-top:6px}.contact{padding:25px 0}.contact-row{align-items:flex-start;flex-direction:column;gap:16px}.contact h2{font-size:22px}.contact p{font-size:13px}.contact .phone{font-size:18px;min-height:50px;width:100%}.footer-row{flex-direction:column;align-items:flex-start}.footer{padding:16px 0}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+    /* Závěr stránky podle dodaného mobilního návrhu */
+    .contact.contact-end{position:relative;overflow:hidden;margin:0;padding:25px 5%;border-radius:18px;background:linear-gradient(110deg,#07394b 0%,#064b5c 56%,#07394b 100%);color:#fff}
+    .contact-end:after{content:"✦";position:absolute;right:22px;top:9px;color:#fff;font-size:44px;opacity:.9}
+    .contact-end .contact-row{max-width:1320px;margin:0 auto;align-items:center}
+    .contact-end h2{max-width:570px;margin:0 0 8px;color:#fff;font-size:clamp(25px,3vw,38px);line-height:1.12;letter-spacing:-1px;font-weight:800}
+    .contact-end h2 span{color:var(--yellow)}
+    .contact-end p{color:#d4e1e4;font-size:15px;line-height:1.4}
+    .contact-end .phone{min-width:245px;min-height:62px;font-size:21px}
+    .bottom-benefits{padding:23px 0 22px;background:#fff}
+    .bottom-benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center}
+    .bottom-benefit{display:flex;flex-direction:column;align-items:center;color:var(--navy)}
+    .bottom-benefit svg{width:37px;height:37px;margin-bottom:8px;fill:currentColor}
+    .bottom-benefit strong{max-width:150px;font-size:14px;line-height:1.25;font-weight:800}
+    .bottom-benefit span{max-width:170px;margin-top:6px;color:#68787d;font-size:12px;line-height:1.35}
+    .site-footer{position:relative;overflow:hidden;padding:31px 0 16px;background:#062f3d;color:#d3e0e3}
+    .site-footer:before{content:"";position:absolute;top:-16px;left:-4%;width:108%;height:34px;background:#fff;border-radius:0 0 50% 50%/0 0 100% 100%}
+    .site-footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .site-footer .logo{font-size:23px;color:#fff}.site-footer .logo-spark{width:27px;height:27px}
+    .site-footer-contact{display:grid;gap:7px;font-size:13px}
+    .site-footer-contact a{display:flex;align-items:center;gap:9px;color:#e0ebee}
+    .site-footer-contact svg{width:17px;height:17px;fill:currentColor;flex:none}
+    .site-footer-copy{margin-top:14px;font-size:12px;color:#c1d0d4}
+    @media(max-width:650px){.contact.contact-end{margin:0;padding:22px 16px 21px;border-radius:17px}.contact-end .contact-row{align-items:flex-start;flex-direction:column;gap:14px}.contact-end:after{right:14px;top:2px;font-size:37px}.contact-end h2{font-size:27px;max-width:390px}.contact-end p{font-size:14px}.contact-end .phone{width:auto;min-width:0;min-height:54px;padding:0 21px;font-size:19px}.bottom-benefits{padding:19px 0 17px}.bottom-benefit-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}.bottom-benefit svg{width:30px;height:30px;margin-bottom:6px}.bottom-benefit strong{font-size:11px}.bottom-benefit span{font-size:10px;line-height:1.25;margin-top:5px}.site-footer{padding:27px 0 14px}.site-footer-row{align-items:flex-start;gap:10px}.site-footer .logo{font-size:18px;gap:6px}.site-footer .logo-spark{width:23px;height:23px}.site-footer-contact{font-size:11px;gap:6px}.site-footer-contact svg{width:14px;height:14px}.site-footer-copy{font-size:10px;margin-top:12px}}
   </style>
 </head>
 <body>
@@ -69,9 +93,34 @@
       <article class="gallery-card"><img src="assets/autosedacky.webp" alt="Čalounění automobilové sedačky" loading="lazy"><h3>Autosedačky</h3></article>
       <article class="gallery-card"><img src="assets/kancelarske-zidle.webp" alt="Kancelářská židle" loading="lazy"><h3>Kancelářské židle</h3></article>
     </div></div></div></section>
-    <section class="contact" id="kontakt"><div class="wrap contact-row"><div><h2>Chcete čistší sedačku nebo koberec?</h2><p>Zavolejte Davidovi a domluvte si čištění.</p></div><a class="phone" href="tel:+420775555348"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24c1.1.36 2.3.55 3.6.55a1 1 0 011 1V20a1 1 0 01-1 1C10.6 21 3 13.4 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.56 3.57a1 1 0 01-.25 1.02z"/></svg>775 555 348</a></div></section>
+    <section class="contact contact-end" id="kontakt" aria-labelledby="contact-title">
+      <div class="contact-row">
+        <div><h2 id="contact-title">Chcete <span>čistší</span> sedačku<br>nebo koberec?</h2><p>Zavolejte Davidovi a domluvte si čištění.<br>Rychle, profesionálně a za férovou cenu.</p></div>
+        <a class="phone" href="tel:+420775555348"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24c1.1.36 2.3.55 3.6.55a1 1 0 011 1V20a1 1 0 01-1 1C10.6 21 3 13.4 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.56 3.57a1 1 0 01-.25 1.02z"/></svg>775 555 348</a>
+      </div>
+    </section>
+    <section class="bottom-benefits" aria-label="Výhody čištění">
+      <div class="wrap bottom-benefit-grid">
+        <div class="bottom-benefit"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 3 7v8c0 8 5.5 12.5 13 15 7.5-2.5 13-7 13-15V7L16 2zm-2 18-5-5 2-2 3 3 7-7 2 2z"/></svg><strong>Profesionální<br>vybavení</strong><span>Hloubkové<br>čištění extrakcí</span></div>
+        <div class="bottom-benefit"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M27 3C15 3 6 8 5 18c-.6 6 3.4 10 8 10 9 0 15-10 14-25zM4 29c5-8 11-13 20-19"/></svg><strong>Bezpečné<br>prostředky</strong><span>Šetrné pro děti<br>i domácí mazlíčky</span></div>
+        <div class="bottom-benefit"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2a14 14 0 1 0 0 28 14 14 0 0 0 0-28zm1.5 6v7.2l5 3-.1 2.4-7.4-4.3V8z"/></svg><strong>Rychlý<br>termín</strong><span>Čištění u vás<br>doma i ve firmě</span></div>
+        <div class="bottom-benefit"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2a10 10 0 0 0-10 10c0 7 10 18 10 18s10-11 10-18A10 10 0 0 0 16 2zm0 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg><strong>Působím<br>po celé ČR</strong><span>Přijedu kamkoliv</span></div>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><div class="wrap footer-row"><span>© <span id="year"></span> VYDRHNU.CZ · David Bereň</span><a href="tel:+420775555348">775 555 348</a></div></footer>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer-row">
+        <a class="logo" href="#domu" aria-label="VYDRHNU.CZ – úvod"><svg class="logo-spark" viewBox="0 0 40 40" aria-hidden="true"><path fill="currentColor" d="M15 1l3.2 10.8L29 15l-10.8 3.2L15 29l-3.2-10.8L1 15l10.8-3.2L15 1zm17 20l2 6 6 2-6 2-2 6-2-6-6-2 6-2 2-6z"/></svg><span>VYDRHNU<span class="dot">.CZ</span></span></a>
+        <div class="site-footer-contact">
+          <a href="tel:+420775555348"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.24c1.1.36 2.3.55 3.6.55a1 1 0 011 1V20a1 1 0 01-1 1C10.6 21 3 13.4 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.56 3.57a1 1 0 01-.25 1.02z"/></svg>775 555 348</a>
+          <a href="mailto:info@vydrhnu.cz"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM4 6l8 7 8-7"/></svg>info@vydrhnu.cz</a>
+          <a href="#sluzby"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>Působím po celé ČR</a>
+        </div>
+      </div>
+      <div class="site-footer-copy">© <span id="year"></span> VYDRHNU.CZ · David Bereň</div>
+    </div>
+  </footer>
   <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
